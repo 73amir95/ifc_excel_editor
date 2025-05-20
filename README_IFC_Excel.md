@@ -36,7 +36,7 @@ pip install ifcopenshell xlwings
 ## 🚀 Usage
 
 1. Make sure Microsoft Excel is installed on your system.
-2. Save your IFC file (e.g., `20230907_Rohdaten_Betondruckfestigkeit.ifc`) in the same directory.
+2. Save your IFC file (e.g., `your_IFC_file_updated.ifc`) in the same directory.
 3. Run the script.
 
 ```bash
@@ -44,7 +44,7 @@ python script.py
 ```
 
 4. Edit the values in Excel and **close Excel** when done.
-5. A new IFC file will be saved as `20230907_Rohdaten_Betondruckfestigkeit_updated.ifc`.
+5. A new IFC file will be saved as `your_IFC_file_updated_updated.ifc`.
 
 ## 📝 Notes
 
@@ -53,11 +53,6 @@ python script.py
 - Script waits until Excel is closed before applying changes
 - Make sure not to rename or move `file.csv` while editing in Excel
 
-## 📂 File Naming
-
-- Input IFC file: `20230907_Rohdaten_Betondruckfestigkeit.ifc`
-- Output IFC file: `20230907_Rohdaten_Betondruckfestigkeit_updated.ifc`
-- Temporary CSV file: `file.csv`
 
 ## 🧑‍💻 Author
 
